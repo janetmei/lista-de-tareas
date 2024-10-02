@@ -1,0 +1,18 @@
+/* Estilos generales */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+  background: url(https://www.freejpg.com.ar/asset/900/32/3224/F100004855.jpg) no-repeat center center/ cover;
+}
