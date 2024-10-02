@@ -16,3 +16,106 @@ body {
   padding: 40px 0;
   background: url(https://www.freejpg.com.ar/asset/900/32/3224/F100004855.jpg) no-repeat center center/ cover;
 }
+
+/* Contenedor */
+
+.contenedor {
+  width: 700px;
+  min-height: 500px;
+  background-color: rgb(191, 169, 212);
+  padding: 40px;
+  border: 5px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Titulo */
+  h1 {
+  font-size: 50px;
+  font-weight: bold;
+  }
+
+  /* Ingresar Texto */
+
+  input {
+    width: 80%;
+    height: 50px;
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid rgb(88, 86, 86);
+    border-radius: 10px;
+  }
+
+  button {
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(88, 62, 113);
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  /* Lista de tareas */
+
+  #lista-de-tareas {
+    width: 80px;
+    margin-top: 20px;
+  }
+
+  /* Tareas */
+
+  .tarea {
+    width: 100%;
+    min-height: 70px;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color:rgb(83, 70, 96);
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  /* Tarea Completada */
+
+  .tarea.completada {
+    text-decoration: line-through;
+    background-color: black;
+    border: none;
+  }
+
+  .tarea p {
+  max-width: 350px;
+  }
+
+  /* Iconos */
+
+  i {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .icono-completar {
+  color: rgb(43, 227, 43);
+  }
+  
+  .icono-eliminar {
+    color: white;
+  }
+  .icono-completar:hover,
+  .icono-eliminar:hover {
+    background-color: rgba(138, 133, 133, 0.523);
+  }
